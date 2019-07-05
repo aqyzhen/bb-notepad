@@ -43,6 +43,7 @@
             this.listView1.Size = new System.Drawing.Size(580, 268);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Tile;
             // 
             // button2
             // 
@@ -75,6 +76,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Main Menu";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form3
             // 

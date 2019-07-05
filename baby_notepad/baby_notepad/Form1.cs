@@ -21,12 +21,8 @@ namespace baby_notepad
         {
             Form2 opennote = new Form2();
 
+           
             opennote.Show();
-        }
-
-        private void toolTip1_Popup(object sender, PopupEventArgs e)
-        {
-            MessageBox.Show("Your older notes.");
         }
 
         private void button2_Click(object sender, EventArgs e)
