@@ -12,8 +12,11 @@ namespace baby_notepad
 {
     public partial class Form3 : Form
     {
+
         public Form3()
-        {
+
+        { 
+
             InitializeComponent();
         }
 
@@ -21,6 +24,11 @@ namespace baby_notepad
         {
 
             Close();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

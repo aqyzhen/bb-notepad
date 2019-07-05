@@ -13,6 +13,7 @@ namespace baby_notepad
 {
     public partial class Form2 : Form
     {
+
         public Form2()
         {
             InitializeComponent();
@@ -61,6 +62,11 @@ namespace baby_notepad
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
