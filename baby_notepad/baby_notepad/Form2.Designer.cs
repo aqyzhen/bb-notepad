@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -47,6 +48,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(28, 80);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
             this.richTextBox1.Size = new System.Drawing.Size(308, 266);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
@@ -58,6 +60,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(308, 31);
             this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "Title";
             // 
             // Form2
             // 
@@ -67,8 +70,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
-            this.Text = "Form3";
+            this.Text = "New note";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
