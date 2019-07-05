@@ -23,5 +23,10 @@ namespace baby_notepad
 
             opennote.Show();
         }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+            MessageBox.Show("Your older notes.");
+        }
     }
 }

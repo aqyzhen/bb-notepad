@@ -68,9 +68,10 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DeepPink;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.button1.Location = new System.Drawing.Point(357, 100);
@@ -83,9 +84,10 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DeepPink;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Plum;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.GhostWhite;
             this.button2.Location = new System.Drawing.Point(462, 100);
