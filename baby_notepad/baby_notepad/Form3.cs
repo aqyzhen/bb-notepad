@@ -48,6 +48,35 @@ namespace baby_notepad
                 }
             }
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Stream myStream;
+
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if ((myStream = openFileDialog1.OpenFile()) !=null) {
+                    string strfilename = openFileDialog1.FileName;
+                    string filetext = File.ReadAllText(strfilename);
+                    richTextBox1.Text = filetext;
+                }
+            }
+                    
+                    
+                    }
+        
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
     
