@@ -16,5 +16,10 @@ namespace baby_notepad
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Glenda, the Plan 9 bunny!");
+        }
     }
 }
