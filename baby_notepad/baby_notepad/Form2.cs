@@ -25,7 +25,11 @@ namespace baby_notepad
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var bunny = textBox3.Text;
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.FileName = bunny;
+
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 using (Stream s = File.Open(saveFileDialog1.FileName, FileMode.CreateNew))
