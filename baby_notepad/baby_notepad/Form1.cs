@@ -28,5 +28,13 @@ namespace baby_notepad
         {
             MessageBox.Show("Your older notes.");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 opennote = new Form3();
+
+            opennote.Show();
+        }
     }
-}
+    }
+
