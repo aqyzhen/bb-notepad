@@ -48,6 +48,8 @@ namespace baby_notepad
             {
                 richTextBox1.Clear();
                 richTextBox1.Focus();
+                textBox3.Clear();
+                textBox3.Focus();
             }
         }
 
