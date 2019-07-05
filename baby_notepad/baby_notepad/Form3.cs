@@ -28,7 +28,7 @@ namespace baby_notepad
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            ///i clicked the wrong thing
         }
     }
 }

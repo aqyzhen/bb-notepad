@@ -20,8 +20,6 @@ namespace baby_notepad
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 opennote = new Form2();
-
-           
             opennote.Show();
         }
 
