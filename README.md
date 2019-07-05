@@ -1,6 +1,6 @@
 ## baby notepad ![icon](baby_notepad/baby_notepad/Resources/bun_icon.png)
 
-A first attempt at a desktop application. Made with Visual Studios 2017 and C#. Inspired by Sanrio stationary of my youth and Aritzia shopping bags, *baby notepad* is a colourful nod to my love affair with anything cute and frivolous. 
+A first attempt at a desktop application. Made with Visual Studios 2017 and C#. Inspired by Sanrio stationary of my youth, *baby notepad* is a colourful nod to my love affair with anything cute and frivolous. 
 
 ![screen_1](baby_notepad/baby_notepad/Resources/screenshots/1.png)  
 
