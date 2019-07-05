@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace baby_notepad
 {
@@ -15,7 +16,7 @@ namespace baby_notepad
 
         public Form3()
 
-        { 
+        {
 
             InitializeComponent();
         }
@@ -26,9 +27,28 @@ namespace baby_notepad
             Close();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            ///i clicked the wrong thing
+            FolderBrowserDialog FBD = new FolderBrowserDialog();
+
+            if (FBD.ShowDialog() == DialogResult.OK)
+            {
+                listBox1.Items.Clear();
+                string[] files = Directory.GetFiles(FBD.SelectedPath);
+                string[] dirs = Directory.GetDirectories(FBD.SelectedPath);
+
+                foreach(string file in files)
+                {
+                    listBox1.Items.Add(Path.GetFileName(file));
+                }
+
+                foreach (string dir in dirs)
+                {
+                    listBox1.Items.Add(Path.GetFileName(dir));
+                }
+            }
         }
     }
+
+    
 }
