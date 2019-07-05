@@ -63,9 +63,9 @@ namespace baby_notepad.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fl {
+        internal static System.Drawing.Bitmap IMG_3880 {
             get {
-                object obj = ResourceManager.GetObject("fl", resourceCulture);
+                object obj = ResourceManager.GetObject("IMG_3880", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace baby_notepad.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IMG_3880 {
+        internal static System.Drawing.Bitmap spaceglenda300 {
             get {
-                object obj = ResourceManager.GetObject("IMG_3880", resourceCulture);
+                object obj = ResourceManager.GetObject("spaceglenda300", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
