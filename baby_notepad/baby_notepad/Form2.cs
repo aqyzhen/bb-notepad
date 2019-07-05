@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace baby_notepad
 {
@@ -20,6 +21,20 @@ namespace baby_notepad
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This is Glenda, the Plan 9 bunny!");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                using (Stream s = File.Open(saveFileDialog1.FileName, FileMode.CreateNew))
+                using (StreamWriter sw = new StreamWriter(s))
+                {
+
+                    sw.Write(richTextBox1.Text);
+                }
+            }
         }
     }
 }
