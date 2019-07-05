@@ -31,10 +31,25 @@ namespace baby_notepad
                 using (Stream s = File.Open(saveFileDialog1.FileName, FileMode.CreateNew))
                 using (StreamWriter sw = new StreamWriter(s))
                 {
-
                     sw.Write(richTextBox1.Text);
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var baby = 1;
+
+            if (baby == 1)
+            {
+                richTextBox1.Clear();
+                richTextBox1.Focus();
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

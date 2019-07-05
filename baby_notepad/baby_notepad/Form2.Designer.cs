@@ -64,6 +64,7 @@
             this.textBox1.Size = new System.Drawing.Size(308, 29);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Title";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -97,6 +98,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Delete";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form2
             // 
