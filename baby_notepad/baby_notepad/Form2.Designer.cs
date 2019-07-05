@@ -103,11 +103,11 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Olive;
+            this.button3.BackColor = System.Drawing.Color.Orchid;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DeepPink;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gold;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.GhostWhite;
             this.button3.Location = new System.Drawing.Point(525, 318);
