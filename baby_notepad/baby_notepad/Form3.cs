@@ -20,7 +20,7 @@ namespace baby_notepad
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Visible = false; Hide();
+            Close();
         }
     }
 }

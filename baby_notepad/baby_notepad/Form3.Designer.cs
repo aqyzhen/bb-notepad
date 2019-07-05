@@ -87,6 +87,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listView1);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Older entries";
             this.ResumeLayout(false);
 
