@@ -26,29 +26,7 @@ namespace baby_notepad
 
             Close();
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            FolderBrowserDialog FBD = new FolderBrowserDialog();
-
-            if (FBD.ShowDialog() == DialogResult.OK)
-            {
-                listBox1.Items.Clear();
-                string[] files = Directory.GetFiles(FBD.SelectedPath);
-                string[] dirs = Directory.GetDirectories(FBD.SelectedPath);
-
-                foreach(string file in files)
-                {
-                    listBox1.Items.Add(Path.GetFileName(file));
-                }
-
-                foreach (string dir in dirs)
-                {
-                    listBox1.Items.Add(Path.GetFileName(dir));
-                }
-            }
-        }
-
+    
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -74,6 +52,11 @@ namespace baby_notepad
         
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
