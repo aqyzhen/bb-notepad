@@ -6,5 +6,5 @@ A first attempt at a desktop application. Made with Visual Studios 2017, .NET Fr
 
 
 ![screen_2](baby_notepad/baby_notepad/Resources/screenshots/2.png)
-###### The bunny illustration is [Glenda](https://9p.io/plan9/glenda.html) of Bell Studio's Plan 9. Glenda was drawn by the talented [Renée French](http://www.reneefrench.com/).
+###### The bunny illustration is [Glenda](https://9p.io/plan9/glenda.html) of Bell Studio's Plan 9. Glenda was drawn by the talented [Renée French](https://en.wikipedia.org/wiki/Ren%C3%A9e_French).
 ![screen_3](baby_notepad/baby_notepad/Resources/screenshots/4.png)  
