@@ -18,12 +18,6 @@ namespace baby_notepad
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 opennote = new Form2();
-            opennote.Show();
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
@@ -32,7 +26,7 @@ namespace baby_notepad
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            this.Opacity = 30;
+            this.Opacity = 0;
             this.Hide();
             var form2 = new Form2();
             form2.Show();
