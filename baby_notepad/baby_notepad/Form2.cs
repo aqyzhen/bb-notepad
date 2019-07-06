@@ -28,7 +28,7 @@ namespace baby_notepad
         {
             var bunny = textBox3.Text;
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|docs (*.doc)|*.doc|All files (*.*)|*.*";
             saveFileDialog1.FileName = bunny;
 
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
@@ -61,7 +61,8 @@ namespace baby_notepad
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Close();
+            Environment.Exit(0);
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -74,10 +75,13 @@ namespace baby_notepad
             {
                 if ((myStream = openFileDialog1.OpenFile()) != null)
                 {
-                    string path = openFileDialog1.FileName;
+                    
                     string strfilename = openFileDialog1.FileName;
+                    string path = openFileDialog1.FileName;
+
                     string filetext = File.ReadAllText(strfilename);
                     string fileName = Path.GetFileName(path);
+
                     richTextBox1.Text = filetext;
                     textBox3.Text = fileName;
                   

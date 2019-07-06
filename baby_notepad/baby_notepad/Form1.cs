@@ -26,8 +26,7 @@ namespace baby_notepad
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            this.Opacity = 0;
-            this.Hide();
+            this.Visible = false;
             var form2 = new Form2();
             form2.Show();
 
