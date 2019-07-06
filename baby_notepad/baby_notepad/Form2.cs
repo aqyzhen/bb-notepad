@@ -64,5 +64,25 @@ namespace baby_notepad
             Close();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Stream myStream;
+
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if ((myStream = openFileDialog1.OpenFile()) != null)
+                {
+                    string path = openFileDialog1.FileName;
+                    string strfilename = openFileDialog1.FileName;
+                    string filetext = File.ReadAllText(strfilename);
+                    string fileName = Path.GetFileName(path);
+                    richTextBox1.Text = filetext;
+                    textBox3.Text = fileName;
+                  
+                }
+            }
+        }
     }
 }
