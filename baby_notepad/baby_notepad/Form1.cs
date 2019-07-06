@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace baby_notepad
 {
@@ -23,12 +24,29 @@ namespace baby_notepad
             opennote.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            Form3 opennote = new Form3();
-
-            opennote.Show();
+            Close();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            this.Opacity = 30;
+            this.Hide();
+            var form2 = new Form2();
+            form2.Show();
+
+            timer1.Stop();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    
+
     }
-    }
+}
 
