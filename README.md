@@ -2,7 +2,7 @@
 
 ![screen_1](baby_notepad/baby_notepad/Resources/screenshots/1.png)
 
-A first attempt at a desktop application. Made with Visual Studios 2017, .NET Frameworkand C#. Inspired by Sanrio stationary of my youth, *baby notepad* is a colourful and gaudy nod to childhood nostalgia. It's a bare bones plain text editor in pink. 
+A first attempt at a desktop application. Made with Visual Studios 2017, .NET Frameworkand C#. Inspired by Sanrio stationary of my youth, *baby notepad* is a colourful and gaudy nod to childhood nostalgia, but mostly it's a bare bones text editor in a pastel pink. 
 
 
 ![screen_2](baby_notepad/baby_notepad/Resources/screenshots/2.png)
